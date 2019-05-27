@@ -1,10 +1,10 @@
-﻿using System;
+﻿using YouLearn.Domain.Entities.Base;
+using YouLearn.Domain.Enums;
 
 namespace YouLearn.Domain.Entities
 {
-    public class Video
+    public class Video : EntityBase
     {
-        public Guid Id { get; set; }
         public Canal Canal { get; set; }
         public Playlist Playlist { get; set; }
         public string Titulo { get; set; }
@@ -13,7 +13,6 @@ namespace YouLearn.Domain.Entities
         public int OrdemNaPlaylist { get; set; }
         public int IdVideoYoutube { get; set; }
         public Usuario UsuarioSugeriu { get; set; }
-        public string Status { get; set; }
-
+        public EnumStatus Status { get; set; }
     }
 }
