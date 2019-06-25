@@ -207,6 +207,23 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "prmToolkit.NotificationPattern/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/prmToolkit.NotificationPattern.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/prmToolkit.NotificationPattern.dll": {}
+        },
+        "resource": {
+          "lib/netstandard1.0/en-US/prmToolkit.NotificationPattern.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     }
   },
@@ -680,11 +697,25 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "prmToolkit.NotificationPattern/1.1.2": {
+      "sha512": "XrOUfGO+krKzP7rdnY4h7syGdrO94ZnrT7PFIUJqWDy8tVbGhBiIimj0E++T62BKZOYHJ4nP3dss0NsgSxfdcA==",
+      "type": "package",
+      "path": "prmtoolkit.notificationpattern/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.0/en-US/prmToolkit.NotificationPattern.resources.dll",
+        "lib/netstandard1.0/prmToolkit.NotificationPattern.dll",
+        "prmtoolkit.notificationpattern.1.1.2.nupkg.sha512",
+        "prmtoolkit.notificationpattern.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "prmToolkit.NotificationPattern >= 1.1.2"
     ]
   },
   "packageFolders": {
@@ -733,6 +764,10 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "prmToolkit.NotificationPattern": {
+            "target": "Package",
+            "version": "[1.1.2, )"
           }
         },
         "imports": [

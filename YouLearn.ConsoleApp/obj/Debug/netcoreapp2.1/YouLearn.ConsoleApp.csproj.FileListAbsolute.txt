@@ -1,0 +1,4 @@
+C:\Workspace\_ProjetoCurso\YouLearn\YouLearn.ConsoleApp\obj\Debug\netcoreapp2.1\YouLearn.ConsoleApp.csprojAssemblyReference.cache
+C:\Workspace\_ProjetoCurso\YouLearn\YouLearn.ConsoleApp\obj\Debug\netcoreapp2.1\YouLearn.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Workspace\_ProjetoCurso\YouLearn\YouLearn.ConsoleApp\obj\Debug\netcoreapp2.1\YouLearn.ConsoleApp.AssemblyInfoInputs.cache
+C:\Workspace\_ProjetoCurso\YouLearn\YouLearn.ConsoleApp\obj\Debug\netcoreapp2.1\YouLearn.ConsoleApp.AssemblyInfo.cs

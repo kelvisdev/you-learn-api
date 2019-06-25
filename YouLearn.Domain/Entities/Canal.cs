@@ -6,6 +6,6 @@ namespace YouLearn.Domain.Entities
     {
         public string Nome { get; set; }
         public string UrlLogo { get; set; }
-        public Usuario Usuario { get; set; }
+        public Usuario Usuario { get; set; }        
     }
 }
